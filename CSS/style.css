@@ -1,0 +1,55 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  margin-top: 5%;
+  background:skyblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: rgb(17, 17, 127);
+  font-size: 60px;
+}
+h2 {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+span {
+  background: red;
+}
+#Calculator {
+  background: rgb(174, 177, 179);
+  width: 600px;
+  height: 400px;
+}
+#integers {
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 5px;
+font-size: 25px;
+}
+#integers input {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  font-size: medium;
+}
+.operators {
+    width: 500px;
+    margin-left: 20%;
+}
+.button{
+  margin: 10px;
+  padding: 5px;
+   width: 150px; 
+   height: 40px; 
+   cursor: pointer;
+   font-size: 20px;
+}
